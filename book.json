@@ -8,11 +8,18 @@
     "plugins": [
         "expandable-chapters-small",
         "splitter",
-        "baidu_gio"
+        "baidu_gio",
+        "page-footer-ex"
     ],
     "pluginsConfig": {
         "baidu_gio": {
             "token": "3c54e19fc62e1192dee25001bd03703c"
+        },
+        "page-footer-ex": {
+            "copyright": "",
+            "markdown": false,
+            "update_label": "<i>修改时间：</i>",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 }
