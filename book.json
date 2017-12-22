@@ -1,10 +1,16 @@
 {
-	"language" : "zh-hans",
-	"styles": {
-		"website": "styles/website.css"
-  	},
-	"plugins":[
-		"expandable-chapters-small",
-		"splitter"
-	]
+    "language": "zh-hans",
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "plugins": [
+        "expandable-chapters-small",
+        "splitter",
+        "baidu_gio"
+    ],
+    "pluginsConfig": {
+        "baidu_gio": {
+            "token": "3c54e19fc62e1192dee25001bd03703c"
+        }
+    }
 }
