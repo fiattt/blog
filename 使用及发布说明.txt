@@ -1,0 +1,18 @@
+配置环境：
+1.安装gitbook命令行工具
+npm install gitbook-cli -g
+2.安装发布工具
+npm install gh-pages -g
+3.第一次运行在根目录执行gitbook install来下载插件
+
+书籍编写：
+使用markdown格式，SUMMARY.md为入口文件。写完后项目根目录执行gitbook build会自动生成_book目录中静态文件用于发布
+
+书籍发布：
+项目根目录中使用gh-pages -d _book发布。该命令做了如下操作：将_book中内容更新到分支gh-pages中。github的pages
+
+书籍访问地址：
+https://<用户名>.github.io/<项目名>/
+
+写了个脚本书籍release.sh写完了自动编辑发布。直接运行即可。
+
